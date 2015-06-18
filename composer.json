@@ -1,0 +1,26 @@
+{
+    "name": "gerpayt/yii2-select-column",
+    "description": "A ajax select input for the Yii framework",
+    "keywords": ["yii2", "select", "column"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/gerpayt/yii2-select-column/issues",
+        "source": "https://github.com/gerpayt/yii2-select-column"
+    },
+    "authors": [
+        {
+            "name": "Chen Feng",
+            "email": "gerpayt@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/bootstrap-select":  "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "gerpayt\\yii2_select_column\\": ""
+        }
+    }
+}
