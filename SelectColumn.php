@@ -2,7 +2,6 @@
 
 namespace gerpayt\yii2_select_column;
 
-use common\assets\FrameAsset;
 use Yii;
 use yii\grid\DataColumn;
 use yii\helpers\ArrayHelper;

@@ -3,6 +3,7 @@
 namespace gerpayt\yii2_select_column;
 
 use yii\web\AssetBundle;
+use yii\web\YiiAsset;
 
 /**
  * ToggleColumnAsset
@@ -23,8 +24,7 @@ class BootstrapSelectAsset extends AssetBundle
     ];
 
     public $depends = [
-        '\yii\web\JqueryAsset',
-        '\yii\bootstrap\BootstrapAsset',
+        '\yii\web\YiiAsset'
     ];
 
 } 
